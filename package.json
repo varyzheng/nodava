@@ -1,14 +1,14 @@
 {
-  "name": "varynode",
+  "name": "nodava",
   "version": "0.0.0",
-  "description": "A node framework, like Nutz and Spring in Java",
+  "description": "Organize your node code in Java style, like SSH(Spring, Struts, Hibernate) in Java. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/varyzheng/varynode.git"
+    "url": "git+https://github.com/varyzheng/nodava.git"
   },
   "keywords": [
     "nodejs",
@@ -20,7 +20,11 @@
   "author": "Varyzheng",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/varyzheng/varynode/issues"
+    "url": "https://github.com/varyzheng/nodava/issues"
   },
-  "homepage": "https://github.com/varyzheng/varynode#readme"
+  "homepage": "https://github.com/varyzheng/nodava#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-google": "^0.12.0"
+  }
 }
