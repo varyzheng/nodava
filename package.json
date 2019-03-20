@@ -1,0 +1,26 @@
+{
+  "name": "varynode",
+  "version": "0.0.0",
+  "description": "A node framework, like Nutz and Spring in Java",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varyzheng/varynode.git"
+  },
+  "keywords": [
+    "nodejs",
+    "MVC",
+    "ORM",
+    "IOC",
+    "AOP"
+  ],
+  "author": "Varyzheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varyzheng/varynode/issues"
+  },
+  "homepage": "https://github.com/varyzheng/varynode#readme"
+}
