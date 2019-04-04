@@ -1,18 +1,19 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es6': true,
+  parser: 'babel-eslint',
+  env: {
+    commonjs: true,
+    es6: true,
+    node: true,
   },
-  'extends': 'google',
-  'globals': {
-    'Atomics': 'readonly',
-    'SharedArrayBuffer': 'readonly',
+  extends: 'airbnb-base',
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
   },
-  'parserOptions': {
-    'ecmaVersion': 2018,
-    'sourceType': 'module',
+  parserOptions: {
+    ecmaVersion: 2018,
   },
-  'rules': {
-    // 'semi': [2, 'never'], // Although I think it is ugly to write a semicolon, Google and Airbnb think it should be written.
-  }
+  rules: {
+    'no-debugger': 1
+  },
 };
